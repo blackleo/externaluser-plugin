@@ -22,7 +22,6 @@ Thrid party api use to show users details in this plugin
             "installer-path":{
                 "{$name}/": ["type: wordpress-plugin"]
             }
-
         }
     ],
     "config": {
