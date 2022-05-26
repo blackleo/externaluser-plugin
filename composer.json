@@ -15,13 +15,5 @@
     "type": "wordpress-plugin",
     "require": {
         "php": ">7.2"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "extra":{
-        "installer-path":{
-            "web/app/plugins/{$name}/": ["type: wordpress-plugin"]
-        }
-
     }
 }
