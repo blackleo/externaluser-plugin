@@ -13,7 +13,8 @@ Thrid party api use to show users details in this plugin
     "type": "wordpress-plugin",
     "require": {
         "php": ">7.2",
-        "composer/installers": "~1.7"
+        "composer/installers": "~1.7",
+        "blackleo/externaluser-plugin": "^1.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
