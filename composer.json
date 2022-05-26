@@ -1,0 +1,27 @@
+{
+    "name": "blackleo/externaluser-plugin",
+    "description": "",
+    "keywords": [
+        "wordpress",
+        "plugin"
+    ],
+    "homepage": "https://github.com/blackleo/externaluser-plugin",
+    "authors": [
+        {
+            "name": "Mehul Dave",
+            "email": "mehuldave13@gmail.com"
+        }
+    ],
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">7.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra":{
+        "installer-path":{
+            "web/app/plugins/{$name}/": ["type: wordpress-plugin"]
+        }
+
+    }
+}
