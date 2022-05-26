@@ -2,7 +2,7 @@
 Thrid party api use to show users details in this plugin
 
 
-
+```
 {
     "repositories": [
         {
@@ -31,7 +31,7 @@ Thrid party api use to show users details in this plugin
         }
     }
 }
-
+```
 Please create a file named composer.json and add above code in it.
  
 And run the following command
